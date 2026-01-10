@@ -84,8 +84,11 @@ crashlytics-build.properties
 *.userosscache
 *.sln.docstates
 
-# Игнорировать файлы Rider (если будете использовать)
-.idea/
+# Игнорируем временные файлы .NET
+*.exe
+*.dll
+*.pdb
+*.cache
 
 # Игнорировать логи и временные папки тестов
 TestResults/
