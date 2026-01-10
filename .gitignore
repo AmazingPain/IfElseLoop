@@ -73,3 +73,23 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Игнорировать результаты сборки (самое важное)
+[Bb]in/
+[Oo]bj/
+
+# Игнорировать временные файлы Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Игнорировать файлы Rider (если будете использовать)
+.idea/
+
+# Игнорировать логи и временные папки тестов
+TestResults/
+*.log
+
+# Игнорировать файлы локальных настроек
+appsettings.Development.json
