@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello, World!");
+            int currentNumber;
+            int step = 7;
+            int minRange = 5;
+            int maxRange = 12233;
+            for (currentNumber = minRange; currentNumber <= maxRange; currentNumber += step)
+            {
+                Write(currentNumber + " ");
+            }
         }
     }
 }
