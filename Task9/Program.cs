@@ -7,6 +7,7 @@
             Random random = new Random();
 
             int N = random.Next(10, 26);
+            //int N = int.Parse(ReadLine());
             int currentValue = 0;
             int counter = 0;
 
