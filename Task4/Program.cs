@@ -6,9 +6,11 @@
         {
             Random random = new Random();
 
-            int number = random.Next(1, 101);
-
+            int beginNumberRange = 1;
+            int endNumberRange = 101;
+            int number = random.Next(beginNumberRange, endNumberRange);
             int sumNumbers  = 0;
+
             for (int i = 1; i <= number; i++)
             {
                 if (i % 3 == 0 || i % 5 == 0)
@@ -17,8 +19,7 @@
                 }
             }
 
-            WriteLine($"Number is : {number}");
-            WriteLine($"The sum of numbers  of 3 and 5 is: {sumNumbers}");
+            WriteLine($"Number is: {number},\nThe sum of numbers of 3 and 5 is: {sumNumbers}");
         }
     }
 }
